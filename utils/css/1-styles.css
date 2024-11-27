@@ -7,7 +7,6 @@ a {
   text-decoration: none;
   position: relative;
 }
-
 a::after {
   position: absolute;
   content: "";
@@ -18,7 +17,8 @@ a::after {
   background-color: #A11C3A;
   transition: all 0.3s ease;
 }
-
 a:hover::after {
   width: 100%;
 }
+
+/*# sourceMappingURL=1-styles.css.map */

@@ -14,19 +14,15 @@ html {
   cursor: pointer;
   border-radius: 50px;
 }
-
 .toggle .toggle-cb {
   display: none;
 }
-
 .toggle .toggle-cb:checked + .toggle-label .toggle-inner {
   background-color: #E1013C;
 }
-
 .toggle .toggle-cb:checked + .toggle-label .toggle-switch {
   transform: translate(90px, -56px);
 }
-
 .toggle .toggle-inner {
   position: relative;
   cursor: pointer;
@@ -36,7 +32,6 @@ html {
   background-color: #EBEBEB;
   border-radius: 50px;
 }
-
 .toggle .toggle-inner::after {
   content: "No";
   position: absolute;
@@ -47,7 +42,6 @@ html {
   font-size: 2.5rem;
   color: #C3C3C3;
 }
-
 .toggle .toggle-switch {
   z-index: 1;
   transform: translate(0px, -56px);
@@ -66,3 +60,5 @@ html {
   left: 33px;
   color: #FFFFeb;
 }
+
+/*# sourceMappingURL=2-styles.css.map */

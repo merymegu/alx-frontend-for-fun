@@ -37,7 +37,7 @@ ul li .icon {
   width: 136px;
   height: 180px;
   margin: 13px auto 0;
-  background-image: url("./0-sprite.png");
+  background-image: url("0-sprite.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

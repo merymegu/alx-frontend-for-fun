@@ -29,7 +29,6 @@
   align-items: center;
   transition: all 0.2s ease;
 }
-
 .menu-open-button:hover {
   transform: scale(1.2);
 }
@@ -46,15 +45,12 @@
 .menu-open:checked + .menu-open-button {
   transform: scale(0.78);
 }
-
 .menu-open:checked + .menu-open-button .menu-line-1 {
   transform: translateY(8px) rotate(45deg);
 }
-
 .menu-open:checked + .menu-open-button .menu-line-2 {
   background: transparent;
 }
-
 .menu-open:checked + .menu-open-button .menu-line-3 {
   transform: translateY(-8px) rotate(-45deg);
 }
@@ -74,7 +70,6 @@
   text-decoration: none;
   transition: all 0.2s ease;
 }
-
 .menu-item:hover {
   color: #C81938;
   background-color: #FFFFFF;
@@ -83,3 +78,5 @@
 .menu-open:checked ~ .menu-item {
   margin-top: 10px;
 }
+
+/*# sourceMappingURL=3-styles.css.map */
